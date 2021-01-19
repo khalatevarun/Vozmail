@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#292929">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/inbox" android:id="@+id/nav_inbox" android:title="Inbox"/>
+        <item android:icon="@drawable/star" android:id="@+id/nav_star" android:title="Star"/>
+        <item android:icon="@drawable/sent" android:id="@+id/nav_sent" android:title="Sent"/>
+        <item android:icon="@drawable/drafts" android:id="@+id/nav_drafts" android:title="Drafts"/>
+        <item android:icon="@drawable/spam" android:id="@+id/nav_spam" android:title="Spam"/>
+        <item android:icon="@drawable/trash" android:id="@+id/nav_trash" android:title="Trash"/>
+        <item android:icon="@drawable/logout" android:id="@+id/nav_logout" android:title="Logout"/>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item android:icon="@drawable/share" android:id="@+id/nav_share" android:title="Share"/>
+        </menu>
+    </item>
+</menu>

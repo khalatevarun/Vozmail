@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="server_client_id">803677284478-0ra9it9o2djpnq0b8dhl0il5fq0sg9r5.apps.googleusercontent.com</string>
+    <string name="server_client_secret">4E5bIUzE22PkSxLlrPu7wRv3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_read_mail">ReadMailActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="action_send">Send</string>
+    <string name="api_key">AIzaSyCpfC0dtmTERPkSQXHAvrOlblWN6fflckI</string>
+    <string name="app_name">Vozmail</string>
+    <string name="search_menu_title">Search</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+</resources>

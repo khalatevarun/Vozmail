@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:versionCode="1" android:versionName="1.0" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.example.android.vozmail">
+        <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="29"/>
+        <uses-permission android:name="android.permission.INTERNET"/>
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+        <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+        <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+        <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+        <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+        <application  android:label="@string/app_name" android:icon="@drawable/app_logo"    android:roundIcon="@drawable/app_logo">
+            <activity android:name="com.example.android.vozmail.ForwardActivity" android:theme="@style/AppTheme"/>
+            <activity android:name="com.example.android.vozmail.ReadMailActivity" android:theme="@style/AppTheme"/>
+            <activity android:name="com.example.android.vozmail.ComposeActivity" android:theme="@style/AppTheme"/>
+            <activity android:theme="@style/AppTheme.NoActionBar" android:name="com.example.android.vozmail.LoginActivity">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN"/>
+                    <category android:name="android.intent.category.LAUNCHER"/>
+                </intent-filter>
+            </activity>
+            <activity android:theme="@style/AppTheme.NoActionBar" android:name="com.example.android.vozmail.MainActivity"/>
+
+        </application>
+    </manifest>

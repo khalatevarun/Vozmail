@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202124">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:id="@+id/subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="adjdasnldkasndlskan"
+                android:textColor="@android:color/white"
+                android:textSize="22dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/from"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingRight="10dp"
+                    android:text="akdjbadskjabsdkasjdb"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#999999"
+                    android:textSize="14dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/star"
+                    android:layout_marginLeft="50dp"
+                    android:id="@+id/star"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/reply_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button_transparent"
+                    android:drawableLeft="@drawable/reply_icon"
+                    android:padding="12dp"
+                    android:text="Reply"
+                    android:textAllCaps="false"
+                    android:textColor="#999999"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/delete_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button_transparent"
+                    android:drawableLeft="@drawable/delete_icon"
+                    android:padding="12dp"
+                    android:text="Delete"
+                    android:textAllCaps="false"
+                    android:textColor="#999999"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/forward_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button_transparent"
+                    android:drawableLeft="@drawable/forward_icon"
+                    android:padding="12dp"
+                    android:text="Forward"
+                    android:textAllCaps="false"
+                    android:textColor="#999999"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/mic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:backgroundTint="#111111"
+                android:src="@drawable/ic_baseline_mic_24"
+                app:fabSize="auto" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
