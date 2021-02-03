@@ -1,4 +1,4 @@
-<p align="center"><h1>VOZMAIL</h1></p>
+<h1 align="center">VOZMAIL</h1>
 <br>
 This repository contains the java code for vozmail android app.
 Vozmail is an email client with an in-built voice assistant.
