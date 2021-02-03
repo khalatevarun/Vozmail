@@ -7,3 +7,7 @@
 <h2>Technologies:</h2>
 <li></li>
 <br>
+<h2>Advantages:</h2>
+<li></li>
+<br>
+<h2>Screenshots:</h2>
