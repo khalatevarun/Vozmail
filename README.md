@@ -2,10 +2,23 @@
 <h3>Vozmail is an Email Client supporting Gmail with an in-built Voice Assistant to aid accessibility.</h3>
 <br>
 <h2>Features:</h2>
-<li></li>
+<li>
+Navigation via voice commands</li>
+<li>
+Compose, Read, Delete Mail via voic commands</li>
+<li>
+Create custom labels and label the mails via voice commands</li>
 <br>
 <h2>Technologies:</h2>
-<li></li>
+ <li>
+    Android Studio IDE
+  </li>
+   <li>
+    Java 
+  </li>
+   <li>
+    Gmail API
+  </li>
 <br>
 <h2>Advantages:</h2>
 <li></li>
